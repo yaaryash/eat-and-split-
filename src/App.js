@@ -33,7 +33,6 @@ export default function App() {
   const [friends, setFriends] = useState(initialFriends);
   const [showAddFriend, setShowAddFriend] = useState(false);
   const [selectedFriend, setSelectedFriend] = useState(null);
-
   function handleShowAddFriend() {
     setShowAddFriend((show) => !show);
   }
